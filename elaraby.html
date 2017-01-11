@@ -1,0 +1,196 @@
+<html>
+<head>
+	<title>El Araby Prduct : Price List</title>
+
+	<style>
+
+		#header {
+			background-color: #0000AD;
+			color: white;
+			padding: .5px;
+			text-align: center;
+			font-size: larger;
+			font-style: oblique;
+
+		}
+
+		#nav {
+			background-color: #999999;
+			color: white;
+			float: right;
+			text-align: right;
+			width: 150px;
+			height: 680px;
+
+		}
+
+		#section {
+			color: black;
+			text-align: right;
+			width: auto;
+
+		}
+
+		#footer {
+			background-color: black;
+			color: white;
+			text-align: center;
+			clear: both;
+			height: auto;
+
+		}
+
+		table, td, th {
+			border-collapse: collapse;
+			border: 1px solid;
+			direction: rtl;
+		}
+
+		th {
+			background-color: #4760A5;
+			color: white;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 150px;
+			background-color: gray;
+			color: black;
+			float: right;;
+		}
+
+		li a {
+			direction: ltr;
+			display: block;
+			width: auto;
+			padding: 8px 16px;
+			color: black;
+			text-decoration: none;
+
+		}
+
+		li a:hover {
+			background-color: lightgray;
+			color: black;
+			width: auto;
+			padding: 20px;
+
+		}
+
+		marquee {
+			white-space: pre;
+			color: blue;
+			font-size: large;
+		}
+
+	</style>
+
+</head>
+<body>
+<script>
+	function i()
+	{
+		var pic;
+		pic = "img/1.jpg";
+		document.getElementById('myimag').src = pic;
+	}
+
+</script>
+<script>
+	function y()
+	{
+		var pim;
+		pim = "img/tv.jpg";
+		document.getElementById('myimag').src = pim;
+	}
+</script>
+
+<div id="header">
+	<h1>قائمة اسعار منتجات شركة العربي</h1>
+
+</div>
+
+<div id="menu">
+	<marquee direction="right" bgcolor="red" white-space="pre">موقع شركة العربي اهلا بكم</marquee>
+
+
+</div>
+
+
+<ul>
+	<li><a href="http://www.elarabygroup.com" target="_blank" title="موقع شركة العربي">الصفحة الرئيسية</a></li>
+	<li><a href="https://www.elarabygroup.com/ar/audio-visual-tvs.html" target="_blank" title="اسعار شاشات التليفزيون">الصوتيات
+		والمرئيات</a></li>
+	<li><a href="https://www.elarabygroup.com/ar/audio-visual-tvs.html" target="_blank" title="اسعار شاشات التليفزيون">الصوتيات
+		والمرئيات</a></li>
+	<li><a href="https://www.elarabygroup.com/ar/audio-visual-tvs.html" target="_blank" title="اسعار شاشات التليفزيون">الصوتيات
+		والمرئيات</a></li>
+	<li><a href="https://www.elarabygroup.com/ar/audio-visual-tvs.html" target="_blank" title="اسعار شاشات التليفزيون">الصوتيات
+		والمرئيات</a></li>
+	<li><a href="https://www.elarabygroup.com/ar/audio-visual-tvs.html" target="_blank" title="اسعار شاشات التليفزيون">الصوتيات
+		والمرئيات</a></li>
+</ul>
+
+<br/>
+
+
+<table align="center">
+	<caption><p><i><big>قائمة الاسعار</big></i></p></caption>
+	<tr>
+		<th>رقم</th>
+		<th>اسم الصنف</th>
+		<th>السعر</th>
+		<th>صورة</th>
+
+	</tr>
+	<tr>
+		<td>1</td>
+		<td><a href="https://www.elarabygroup.com/ar/toshiba-refrigerator-2-door-335l-white-no-frost-gr-ef40p-w.html"
+		       target="if2" title="مواصفات ثلاجة توشيبا 14 قدم">ثلاجة توشيبا 14 قدم</a></td>
+		<td>5025 L.E</td>
+		<td>
+			<button type="button" onclick="i()">عرض الصورة</button>
+		</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td align="right">"LED Toshina 32</td>
+		<td>3199 L.E</td>
+		<td>
+			<button type="button" onclick="y()">عرض الصورة</button>
+		</td>
+
+	</tr>
+
+
+</table>
+<p align="center"><img id="myimag" width="150px" height="150px" align="center"></p>
+
+<p align="center">
+	<iframe width="50%" height="300px" name="if2"></iframe>
+</p>
+<p align="left">First Name:
+	<input id="d" type="text" name="t1" title="First Name"><br/><br/>
+	Last Name:
+	<input id="c" type="text" name="t2" title="Last Name"> <br/>
+	<input type="button" name="b" onclick="na()" value="Try it">
+	<script>
+
+		function na()
+		{
+
+			var a = 5;
+			var b = 6;
+			document.getElementById("s").innerHTML = (a + b)
+		}
+	</script>
+<p id="s"></p>
+</p>
+
+<div id="footer">
+	<b>حقوق النشر لنبيل عمران</b>
+</div>
+</body>
+</html>
